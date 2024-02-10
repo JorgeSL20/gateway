@@ -7,7 +7,7 @@ import { Producto } from '../models/producto';
   providedIn: 'root'
 })
 export class ProductoService {
-  url = 'https://backend-theta-topaz.vercel/api/productos/';
+  url = 'https://gateway-backend.vercel.app/api/productos/';
   constructor(private http: HttpClient) { }
 
   getProductos(): Observable<any>{
